@@ -11,7 +11,7 @@ Este projeto foi elaborado com foco em praticar habilidades de desenvolvimento w
 
 ## **Clique aqui para testar o Pokédex!** 🎮
 
-[**Acessar a Pokédex**](#)
+[**Acessar a Pokédex**](https://marlonalvss.github.io/js-developer-pokedex/)
 
 ---
 
