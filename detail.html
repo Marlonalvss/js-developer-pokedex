@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/pokeDetails.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+    <main>
+
+        <div class="backAndName">
+            <a href="./index.html"><img src="./assets/images/left-arrow.svg" alt="" /></a>
+            <h1 class="namePoke"></h1>
+            <p class="pokeNumber"></p>
+        </div>
+        <div class="photoItens">
+            <button data-action="left" class="btn"><img src="./assets/images/previous.svg" alt=""></button>
+            <div class="photoPoke">
+            </div>
+            <button data-action="right" class="btn"><img src="./assets/images/./step-forward.svg" alt=""></button>
+        </div>
+
+        </div>
+        <div class="detalhes">
+            <ol class="aboutType"></ol>
+            <h2 class="aboutH2">About</h2>
+            <div class="allCharacters">
+                <img src="./assets/images/weight.svg" alt="">
+                <div class="character-info">
+                    <p class="weight"></p>
+                    <p> Weight</p>
+                </div>
+                <img src="./assets/images/height.svg" alt="">
+                <div class="character-info">
+                    <p class="height"></p>
+                    <p>Height</p>
+                </div>
+                <div class="character-info">
+
+                    <p class="move"></p>
+                    <p>Move</p>
+                </div>
+            </div>
+            <p class="aboutDescription">About Description</p>
+            <div class="baseStats">
+                <p class="baseStatsName">Base Stats</p>
+            </div>
+            <div class="stats">
+                <p>
+                    HP
+                    <br />
+                    <progress class="hp colorProgress" value="" max="100"></progress>
+                </p>
+                <p>
+                    ATK
+                    <br />
+                    <progress class="atk colorProgress" value="" max="100"></progress>
+                </p>
+                <p>
+                    DEF
+                    <br />
+                    <progress class="def colorProgress" value="" max="100"></progress>
+                </p>
+                <p>
+                    SATK <br />
+                    <progress class="satk colorProgress" value="" max="100"></progress>
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <script src="./assets/js/poke-details.js"></script>
+</body>
+
+</html>
