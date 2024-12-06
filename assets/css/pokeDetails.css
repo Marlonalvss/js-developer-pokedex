@@ -8,6 +8,19 @@ main {
     align-items: center;
     border-radius: 10px;
 }
+.photoPoke{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    height: 150px;
+}
+.photoPoke img {
+    position: absolute;
+    top: 30px;
+    
+}
 
 
 .namePoke,
